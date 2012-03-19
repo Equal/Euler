@@ -30,17 +30,3 @@ for i in abundantnumbers:
             abundantSums.add(i+k)
 
 print sum([x for x in range(20162) if x not in abundantSums])
-
-"""
-for i in range(len(abundantnumbers)):
-    for k in range(i, len(abundantnumbers)):
-        abundantSums[abundantnumbers[i]+abundantnumbers[k]] = 1
-
-print len(abundantSums)
-
-for i in range(1, 20162):
-    if abundantSums.get(i, None) == None: 
-        answer += i
-
-print answer
-"""
