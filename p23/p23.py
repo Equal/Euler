@@ -1,9 +1,12 @@
 #According to wikipedia, every integer greater than 20161 can be written as abundant sums
 def isAbundantNumber(number):
-    divisorsum = 0
-    for i in range(1, number):
+    sqrtnum = int(number**0.5) + 1
+    divisorsum = 1 #already account for 1
+    for i in range(2, sqrtnum):
         if number % i == 0:
             divisorsum += i
+            if (number / i != i):
+                divisorsum += number / i
     if (divisorsum > number):
         return True
     return False

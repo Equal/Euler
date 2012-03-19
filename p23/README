@@ -1,0 +1,3 @@
+Wow, this is a terrible solution. Not one of my more elegant attempts.
+
+Revised it to speed up abundance checks by only checking up to root(n), but the space costs with the dictionary are still huge.
