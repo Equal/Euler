@@ -1,3 +1,5 @@
-my solutions for problems at projecteuler.net
+My solutions for the problems at ProjectEuler.net
 
-Saving here just for source control reasons. I do these as I find time and feel like doing them. My language of choice is almost always Python. Some of the earlier problems I do not have solutions saved for.
+You can find a description of problem X at www.projecteuler.net/problem=X, where X is a number (ex. www.projecteuler.net/problem=1).
+
+Generally the solutions should run within <1 min, and my answers thus far have all been in Python, so that should be all you need. I do not have solutions for some of the earlier problems saved.
